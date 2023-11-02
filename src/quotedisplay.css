@@ -1,11 +1,12 @@
 /* quoteDisplay.css */
 .button {
     padding: 10px 20px;
-    background-color: rgb(237, 100, 66);
+    background-color: rgb(235, 79, 36);
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-top: 20px;
   }
