@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Quote of the day with React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built within 35 mins and i am super proud of this journey!
+here is a snap shot of what the web aspp looks like!
+
+![random quote image](src/random_q.png)
 
 ## Available Scripts
 
