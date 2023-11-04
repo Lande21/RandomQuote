@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #56c2c9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(241, 14, 139);
+  color: rgb(141, 125, 6);
 }
+
 
 
 

@@ -19,8 +19,8 @@ function QuoteDisplay() {
 
   return (
     <div>
-      <h1>Quote of the Day</h1>
-      <p>{quote}</p>
+      <h1>Wisdom of the Day</h1>
+      <p className="quote">{quote}</p>
       <button onClick={fetchRandomQuote} className="button">Generate Random Quote</button>
     </div>
   );
