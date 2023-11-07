@@ -16,10 +16,10 @@
     text-align: center; /* Center-align the quote text */
   }
   .quote{
-    color: rgb(0, 0, 0);
+    color: rgb(36, 8, 8);
     font-size: 24px;
     padding: 20px; /* Add padding around the quote */
-    border: 1px solid #ccc;
-    background-color: bisque;
+    border: 1px solid rgb(184, 12, 12);
+    background-color: rgb(255, 255, 255);
   }
   
