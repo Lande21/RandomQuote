@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Practices from './Practices';
 import QuoteDisplay from './QuoteDisplay';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <QuoteDisplay />
+        <Practices />
        
       </header>
     </div>
