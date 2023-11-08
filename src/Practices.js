@@ -17,6 +17,7 @@ function Practices() {
 
   return (
     <div className="exercises">
+            <h3>Here is my first practice with REST APIs</h3>
       <h1>Posts</h1>
       <ul>
         {posts.map(post => (
