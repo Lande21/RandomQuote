@@ -68,7 +68,7 @@ function QuoteDisplay() {
       </div>
       <button onClick={fetchRandomQuote} className="button">Generate Random Quote</button>
       
-      <h2 className="mytime">Current Time Chicago</h2>
+      <h2 className="mytime">Current Time Chicago, USA</h2>
       <p className="mytime">{centralTime}</p>
       <h2 className="mytime">Current Time Kigali, Rwanda</h2>
       <p className="mytime">{kigaliTime}</p>
