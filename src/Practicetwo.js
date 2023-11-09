@@ -19,9 +19,12 @@ function Practicetwo() {
         <div className="exercises">
             <h3>Here is my second practice with REST APIs</h3>
             <h1>Pokemons</h1>
+            
             {pokemons.map(pokemon => (
              
-            <h3 key={pokemon.name}>{pokemon.name}</h3>
+            <h4 key={pokemon.name}>{pokemon.name}
+            {pokemon.url}</h4>
+            
            
         ))}
         </div>
