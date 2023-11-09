@@ -18,15 +18,25 @@ function Practicetwo() {
     return (
         <div className="exercises">
             <h3>Here is my second practice with REST APIs</h3>
-            <h1>Pokemons</h1>
-            
-            {pokemons.map(pokemon => (
-             
-            <h4 key={pokemon.name}>{pokemon.name}
-            {pokemon.url}</h4>
-            
-           
-        ))}
+            <h1>Fetched Pokemons</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {pokemons.map(pokemon => (
+                 <tr key={pokemon.name}>
+                     <td>{pokemon.name}</td>
+                     <td>{pokemon.url}</td>
+                </tr>
+                ))}
+                </tbody>
+            </table>
+      
+        
         </div>
     );
 }

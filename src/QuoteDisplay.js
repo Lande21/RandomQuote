@@ -65,13 +65,13 @@ function QuoteDisplay() {
       <div class="quote-container">
       <blockquote className="quote">{quote}
       </blockquote>
-      </div>
+      
       <button onClick={fetchRandomQuote} className="button">Generate Random Quote</button>
       
       <h2 className="mytime">Current Time Chicago, USA</h2>
       <p className="mytime">{centralTime}</p>
       <h2 className="mytime">Current Time Kigali, Rwanda</h2>
-      <p className="mytime">{kigaliTime}</p>
+      <p className="mytime">{kigaliTime}</p></div>
     </div>
   );
 }
