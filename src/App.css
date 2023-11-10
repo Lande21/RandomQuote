@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: #60d8cc;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   justify-content: center;
   font-size: calc(9px + 2vmin);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(3, 60, 31);
+  color: rgb(228, 244, 236);
 }
 .mytime{
   
