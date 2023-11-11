@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Practices from './Practices';
 import Practicetwo from './Practicetwo';
 import QuoteDisplay from './QuoteDisplay';
+import UnsplashGallery from './Unsplashprac';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <header className="App-header">
         <QuoteDisplay />
         
-        <Practicetwo />
+        
+        <UnsplashGallery />
        
       </header>
     </div>
