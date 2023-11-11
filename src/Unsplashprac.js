@@ -26,7 +26,7 @@ function UnsplashGallery(){
     }, []);
     return (
         <div>
-          <h1>Unsplash Gallery</h1>
+          <h2><center>Unsplash Gallery</center></h2>
           <div className="image-grid">
             {images.map(image => (
             <div key={image.id} className = "image-item">
