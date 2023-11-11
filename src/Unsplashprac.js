@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import './quotedisplay.css'; 
 
 function UnsplashGallery(){
     const [images, setImages] = useState([]);
@@ -28,7 +29,9 @@ function UnsplashGallery(){
           <h1>Unsplash Gallery</h1>
           <div className="image-grid">
             {images.map(image => (
-              <img key={image.id} src={image.urls.small} alt={image.alt_description} />
+            <div key={image.id} className = "image-item">
+                  <img src={image.urls.small} alt={image.alt_description} />
+            </div>
             ))}
           </div>
         </div>
