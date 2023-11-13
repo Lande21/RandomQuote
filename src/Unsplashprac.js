@@ -6,6 +6,7 @@ import './quotedisplay.css';
 
 function UnsplashGallery(){
     const [images, setImages] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchImages = async () => {
@@ -22,7 +23,9 @@ function UnsplashGallery(){
                 
             }catch(error){
                 console.error('error:', error);
-            }
+            } finally {
+                setLoading(false); // Set loading to false regardless of success or failure
+              }
             
         };
         fetchImages();
@@ -39,13 +42,17 @@ function UnsplashGallery(){
     return (
         <div>
           <h2><center>The Unsplash Gallery</center></h2>
-          <Slider  {...sliderSettings}>
-        {images.map(image => (
-          <div key={image.id}>
-            <img src={image.urls.small} alt={image.alt_description} />
-          </div>
-        ))}
-      </Slider>
+          {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <Slider {...sliderSettings}>
+          {images.map(image => (
+            <div key={image.id}>
+              <img src={image.urls.small} alt={image.alt_description} />
+            </div>
+          ))}
+        </Slider>
+      )}
         </div>
       );
 }
