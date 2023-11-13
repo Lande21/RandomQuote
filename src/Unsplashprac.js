@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from "react";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import './quotedisplay.css'; 
 
 function UnsplashGallery(){
@@ -24,16 +27,25 @@ function UnsplashGallery(){
         };
         fetchImages();
     }, []);
+
+    const sliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3, // Show 3 images at a time
+        slidesToScroll: 1,
+        centerMode: true,
+      };
     return (
         <div>
           <h2><center>The Unsplash Gallery</center></h2>
-          <div className="image-grid">
-            {images.map(image => (
-            <div key={image.id} className = "image-item">
-                  <img src={image.urls.small} alt={image.alt_description} />
-            </div>
-            ))}
+          <Slider  {...sliderSettings}>
+        {images.map(image => (
+          <div key={image.id}>
+            <img src={image.urls.small} alt={image.alt_description} />
           </div>
+        ))}
+      </Slider>
         </div>
       );
 }

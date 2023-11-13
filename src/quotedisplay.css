@@ -22,27 +22,34 @@
     border: 1px solid rgb(94, 25, 25);
     background-color: rgb(246, 250, 249);
   }
-  .exercises{
-    font-size: 18px;
-    color:rgb(29, 4, 30);
-    text-align: left;
-  }
-  .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
   
-  .image-item {
-    width: calc(33.33% - 10px); /* Adjust margin and width as needed */
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-  
-  img {
-    width: 100%;
-    height: 80%;
-    
-  }
+  /* Add your custom styles for the slider container or individual slides */
+.slick-slider {
+  width: 70%;
+  margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
  
   
