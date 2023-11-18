@@ -1,5 +1,7 @@
 // CountdownTimer.js
+
 import React, { useState, useEffect } from 'react';
+import './quotedisplay.css'; 
 
 const CountdownTimer = ({ initialSeconds }) => {
   const [seconds, setSeconds] = useState(initialSeconds);
@@ -21,7 +23,7 @@ const CountdownTimer = ({ initialSeconds }) => {
 
   return (
     <div>
-      <h1>Countdown: {seconds} seconds</h1>
+      <h3 className="countt">Countdown: {seconds} seconds</h3>
     </div>
   );
 };

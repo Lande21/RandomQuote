@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <QuoteDisplay />
-        <CountdownTimer />
+        <h1>My Countdown App</h1>
+        <CountdownTimer initialSeconds={180} />
         
         <UnsplashGallery />
        
