@@ -1,7 +1,7 @@
 /* quoteDisplay.css */
 .button {
     padding: 10px 20px;
-    background-color: rgb(165, 35, 126);
+    background-color: rgb(68, 24, 55);
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -16,7 +16,7 @@
     text-align: center; /* Center-align the quote text */
   }
   .quote{
-    color: rgb(36, 8, 8);
+    color: rgb(106, 13, 13);
     font-size: 24px;
     padding: 20px; /* Add padding around the quote */
     border: 1px solid rgb(94, 25, 25);
