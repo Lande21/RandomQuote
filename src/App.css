@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: rgb(121, 10, 36);
+  background-color: rgb(155, 48, 21);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   
   align-items:flex-start;
   justify-content: flex-start;
-  color: rgb(97, 207, 198);
+  color: rgb(4, 55, 51);
   font-family: monospace;
   font-size: 12px;
 }
