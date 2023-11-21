@@ -23,7 +23,7 @@ const CountdownTimer = ({ initialSeconds }) => {
 
   return (
     <div>
-      <h3 className="countt">Countdown: {seconds} seconds</h3>
+      <h3 className="countt">Countdown : {seconds} seconds</h3>
     </div>
   );
 };
