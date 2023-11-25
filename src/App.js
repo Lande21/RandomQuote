@@ -13,7 +13,7 @@ function App() {
         <h1>My Countdown App</h1>
         <CountdownTimer initialSeconds={180} />
         
-        <UnsplashGallery />
+        
        
       </header>
     </div>
