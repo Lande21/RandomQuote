@@ -3,8 +3,21 @@
 import React, { useState, useEffect } from 'react';
 import './quotedisplay.css'; 
 
-const CountdownTimer = ({ initialSeconds }) => {
-  const [seconds, setSeconds] = useState(initialSeconds);
+const CountdownTimer = ({ targetDate }) => {
+    const calculateTimeLeft = () => {
+        const now = new Date();
+        const difference = targetDate - now;
+
+        if (difference < 0){
+            //target date has passed
+            return {
+                days: 0,
+                hours: 0,
+                minutes: 0,
+                seconds: 0,
+            };
+        }
+
 
   useEffect(() => {
     // Exit the effect if the countdown reaches 0
