@@ -18,6 +18,10 @@ const CountdownTimer = ({ targetDate }) => {
             };
         }
 
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) /(1000 * 60 *60));
+        
+
 
   useEffect(() => {
     // Exit the effect if the countdown reaches 0
