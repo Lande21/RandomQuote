@@ -36,24 +36,15 @@ const CountdownTimer = ({ targetDate }) => {
 
     useEffect(() => {
     // Exit the effect if the countdown reaches 0
-    const timerId = setInterval(() => {
+        const timerId = setInterval(() => {
         setTimeLeft(calculateTimeLeft());
-    }, 1000);
-    return () => clearInterval(timerId);
-    }, []);
-
-    // Update the countdown every second
-    const timerId = setInterval(() => {
-      setSeconds((prevSeconds) => prevSeconds - 1);
-    }, 1000);
-
-    // Clean up the interval when the component is unmounted
-    return () => clearInterval(timerId);
+         }, 1000);
+        return () => clearInterval(timerId);
     }, []);
 
   return (
     <div>
-        <h1 className="countt">Countdown</h1>
+        <h1 className="countt">Countdown to Ro's birth day</h1>
         <p>{timeLeft.days} days</p>
         <p>{timeLeft.hours} hours</p>
         <p>{timeLeft.minutes}  minutes</p>
