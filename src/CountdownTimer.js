@@ -20,14 +20,27 @@ const CountdownTimer = ({ targetDate }) => {
 
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
         const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) /(1000 * 60 *60));
-        
+        const minutes = Math.floor((difference % (1000 * 60 * 60))/ (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
 
-  useEffect(() => {
+        return {
+            days,
+            hours,
+            minutes,
+            seconds,
+        };
+    };
+
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+    useEffect(() => {
     // Exit the effect if the countdown reaches 0
-    if (seconds <= 0) {
-      return;
-    }
+    const timerId = setInterval(() => {
+        setTimeLeft(calculateTimeLeft());
+    }, 1000);
+    return () => clearInterval(timerId);
+    }, []);
 
     // Update the countdown every second
     const timerId = setInterval(() => {
@@ -36,11 +49,16 @@ const CountdownTimer = ({ targetDate }) => {
 
     // Clean up the interval when the component is unmounted
     return () => clearInterval(timerId);
-  }, [seconds]);
+    }, []);
 
   return (
     <div>
-      <h3 className="countt">Countdown : {seconds} seconds</h3>
+        <h1 className="countt">Countdown</h1>
+        <p>{timeLeft.days} days</p>
+        <p>{timeLeft.hours} hours</p>
+        <p>{timeLeft.minutes}  minutes</p>
+        <p>{timeLeft.seconds} seconds</p>
+      
     </div>
   );
 };
