@@ -44,7 +44,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div>
-        <h1 className="countt">Countdown to Ro's birth day</h1>
+        <h1 className="countt">Countdown to The Golden</h1>
         <p>{timeLeft.days} days</p>
         <p>{timeLeft.hours} hours</p>
         <p>{timeLeft.minutes}  minutes</p>
