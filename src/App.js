@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Cat from './Cat';
 import CountdownTimer from './CountdownTimer';
 import Practicetwo from './Practicetwo';
 import QuoteDisplay from './QuoteDisplay';
@@ -11,8 +12,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <QuoteDisplay />
+        <Cat />
         <h1>My Countdown </h1>
         <CountdownTimer targetDate={targetDate} />
+
         
         
        
