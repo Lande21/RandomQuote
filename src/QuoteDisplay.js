@@ -61,7 +61,7 @@ function QuoteDisplay() {
   return (
     <div>
       
-      <h1>Wisdom of Today: Tuesday on December 4, 2023 A little tired  </h1>
+      <h1>Wisdom of Today: Tuesday on December 5, 2023 A little tired my feet hurts  </h1>
       <div class="quote-container">
       <blockquote className="quote">{quote}
       </blockquote>
