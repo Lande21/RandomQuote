@@ -66,7 +66,7 @@ function QuoteDisplay() {
       <blockquote className="quote">{quote}
       </blockquote>
       
-      <button onClick={fetchRandomQuote} className="button">Generate Random Quote</button>
+      <button onClick={fetchRandomQuote} className="button">Generate a Random Quote</button>
       
       <h2 className="mytime">Current Time Chicago, USA</h2>
       <p className="mytime">{centralTime}</p>
