@@ -8,7 +8,7 @@ import QuoteDisplay from './QuoteDisplay';
 import UnsplashGallery from './Unsplashprac';
 
 function App() {
-  const targetDate = new Date('December 10, 2023 22:59:59');
+  const targetDate = new Date('December 25, 2023 22:59:59');
   return (
     <div className="App">
       <header className="App-header">
