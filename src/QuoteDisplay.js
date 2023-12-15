@@ -61,12 +61,12 @@ function QuoteDisplay() {
   return (
     <div>
       
-      <h1>Wisdom of Today: Thurday on December 14, 2023 </h1>
+      <h1>Wisdom of Today: Thursday on December 14, 2023 </h1>
       <div class="quote-container">
       <blockquote className="quote">{quote}
       </blockquote>
       
-      <button onClick={fetchRandomQuote} className="button">Generate a Random Quote</button>
+      <button onClick={fetchRandomQuote} className="button">Generate Random Quote</button>
       
       <h2 className="mytime">Current Time Chicago, USA</h2>
       <p className="mytime">{centralTime}</p>
