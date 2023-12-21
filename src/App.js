@@ -26,7 +26,13 @@ function App() {
       <ProjectCard
         name="Project Name"
         description="Description of the project goes here. Provide a brief overview of the technologies used and the problem solved by the project."
-        image="path/to/project-screenshot.png"
+        image="projectimages/RolandeUmuhozaApp.png"
+        link="#"
+      />
+      <ProjectCard
+        name="Project Name"
+        description="Description of the project goes here. Provide a brief overview of the technologies used and the problem solved by the project."
+        image="projectimages/RolandeUmuhozaApp.png"
         link="#"
       />
     </div>
