@@ -6,6 +6,7 @@ import CountdownTimer from './CountdownTimer';
 import Practicetwo from './Practicetwo';
 import QuoteDisplay from './QuoteDisplay';
 import UnsplashGallery from './Unsplashprac';
+import ProjectCard from './components/ProjectCard';
 
 function App() {
   const targetDate = new Date('December 21, 2023 22:59:59');
@@ -22,6 +23,12 @@ function App() {
         
        
       </header>
+      <ProjectCard
+        name="Project Name"
+        description="Description of the project goes here. Provide a brief overview of the technologies used and the problem solved by the project."
+        image="path/to/project-screenshot.png"
+        link="#"
+      />
     </div>
   );
 }
