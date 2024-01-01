@@ -45,6 +45,7 @@ const CountdownTimer = ({ targetDate }) => {
   return (
     <div>
         <h1 className="countt">Countdown for the NEW YEAR's!!!</h1>
+        <h2> Ejo mfite shift at 1030</h2>
         <p>{timeLeft.days} days</p>
         <p>{timeLeft.hours} hours</p>
         <p>{timeLeft.minutes}  minutes</p>
