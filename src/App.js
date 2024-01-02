@@ -9,7 +9,7 @@ import UnsplashGallery from './Unsplashprac';
 import ProjectCard from './components/ProjectCard';
 
 function App() {
-  const targetDate = new Date('December 31, 2023 22:59:59');
+  const targetDate = new Date('December 31, 2024 22:59:59');
   return (
     <div className="App">
       <header className="App-header">
