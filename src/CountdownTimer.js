@@ -45,7 +45,7 @@ const CountdownTimer = ({ targetDate }) => {
   return (
     <div>
         <h1 className="countt">Countdown for the NEW YEAR's!!!</h1>
-        <h2>May GOD strengthen me this year of 2024 as i am willing  to move my feet and strengthen my faith with GOD. I know that i </h2>
+        <h2>May GOD strengthen me this year of 2024 as i am willing  to move my feet and strengthen my faith with GOD. I know that i got this¡</h2>
         <p>{timeLeft.days} days</p>
         <p>{timeLeft.hours} hours</p>
         <p>{timeLeft.minutes}  minutes</p>
