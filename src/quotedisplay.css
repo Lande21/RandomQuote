@@ -25,6 +25,10 @@
   .countt{
     text-align: center;
   }
+  .daily{
+    text-align: center;
+    font-size: small;
+  }
   
   /* Add your custom styles for the slider container or individual slides */
 .slick-slider {
