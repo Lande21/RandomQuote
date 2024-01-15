@@ -47,6 +47,8 @@ const CountdownTimer = ({ targetDate }) => {
         <h1 className="countt">Countdown for the NEW YEAR's!!!</h1>
         <h4 className="daily">May GOD strengthen me this year of 2024 as i move my feet and strengthen my faith with GOD. I know that i got this!! I am applying to 3 Grad schools by feb 2st</h4>
         <h4><ul><li>I applied to CMU-Africa</li>
+        <li>I made dinner</li>
+        <li>I made dinner</li>
         <li>I made dinner</li></ul>
         </h4>
         <p>{timeLeft.days} days</p>
