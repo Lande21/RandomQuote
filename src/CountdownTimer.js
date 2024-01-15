@@ -49,7 +49,7 @@ const CountdownTimer = ({ targetDate }) => {
         <h4><ul><li>Tim form CMU replied to my email</li>
         <li>I went to work 1-5pm and did small projects for deanna</li>
         <li>Leonce visited and made beignets zidahiye mwimbere</li>
-        <li>I made dinner</li></ul>
+        <li>We ate chicken, fries and ibishyimbo for dinner</li></ul>
         </h4>
         <p>{timeLeft.days} days</p>
         <p>{timeLeft.hours} hours</p>
