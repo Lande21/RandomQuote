@@ -46,7 +46,7 @@ const CountdownTimer = ({ targetDate }) => {
     <div>
         <h1 className="countt">Countdown for the NEW YEAR's 2025!!!</h1>
         <h4 className="daily">May GOD strengthen me this year of 2024 as i move my feet and strengthen my faith with GOD. I know that i got this!! I am applying to 3 Grad schools by feb 2st</h4>
-        <h4><ul><li>Woke up,took shower :)</li>
+        <h4><ul><li>Woke up,took shower 8:10am:)</li>
         <li>I went to work 9:30-6pm and did sort, freight, fR</li>
         <li>Freight</li>
         <li>We ate ibirayi, igitoki harimo ubunyobwa and amashaza for dinner</li></ul>
