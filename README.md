@@ -1,7 +1,7 @@
 # Quote of the day with React App
 
 This project was built within 35 mins and i am super proud of this journey!
-here is a snap shot of what the web aspp looks like!
+here is a snap shot of what the web app looks like!
 
 ![random quote image](src/random_q.png)
 
